@@ -7,6 +7,7 @@ LED_Init();
 delay_init(168);
 while(1)
 {
+	//ssss
 delay_ms(500);
 led0=0;
 led1=1;
