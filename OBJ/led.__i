@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE
+-I E:\研究生\新建程序\程序\跑马灯\USER\RTE
+-I D:\MDK5\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-I D:\MDK5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d "..\HARDWARE\led.c"
