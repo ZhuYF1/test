@@ -28,3 +28,10 @@
 ..\obj\main.o: ..\stm32f10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\main.o: ..\stm32f10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\main.o: ..\stm32f10x_FWLib\inc\misc.h
+..\obj\main.o: ..\UserDrive\Drv8301.h
+..\obj\main.o: ..\UserDrive\Delay.h
+..\obj\main.o: ..\UserDrive\GPIO.h
+..\obj\main.o: ..\UserDrive\Timer.h
+..\obj\main.o: ..\UserDrive\IWDG.h
+..\obj\main.o: ..\UserDrive\ADC.h
+..\obj\main.o: ..\UserDrive\HALL.h

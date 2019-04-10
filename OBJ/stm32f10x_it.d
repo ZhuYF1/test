@@ -29,3 +29,5 @@
 ..\obj\stm32f10x_it.o: ..\stm32f10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\stm32f10x_it.o: ..\stm32f10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\stm32f10x_it.o: ..\stm32f10x_FWLib\inc\misc.h
+..\obj\stm32f10x_it.o: ..\UserDrive\MotorControl.h
+..\obj\stm32f10x_it.o: ..\UserDrive\HALL.h
