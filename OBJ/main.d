@@ -1,4 +1,5 @@
 ..\obj\main.o: main.c
+..\obj\main.o: globalvariable.h
 ..\obj\main.o: stm32f10x.h
 ..\obj\main.o: ..\CORE\core_cm3.h
 ..\obj\main.o: F:\keil5.26\ARM\ARMCC\Bin\..\include\stdint.h
@@ -35,3 +36,10 @@
 ..\obj\main.o: ..\UserDrive\IWDG.h
 ..\obj\main.o: ..\UserDrive\ADC.h
 ..\obj\main.o: ..\UserDrive\HALL.h
+..\obj\main.o: ..\UserDrive\MotorControl.h
+..\obj\main.o: ..\UserDrive\SPI.h
+..\obj\main.o: ..\UserDrive\USART.h
+..\obj\main.o: ..\UserDrive\flash.h
+..\obj\main.o: Protect.h
+..\obj\main.o: globalvariable.h
+..\obj\main.o: System.h

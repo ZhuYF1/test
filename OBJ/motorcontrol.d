@@ -29,3 +29,4 @@
 ..\obj\motorcontrol.o: ..\stm32f10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\motorcontrol.o: ..\stm32f10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\motorcontrol.o: ..\stm32f10x_FWLib\inc\misc.h
+..\obj\motorcontrol.o: ..\UserDrive\flash.h

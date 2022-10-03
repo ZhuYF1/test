@@ -29,3 +29,5 @@
 ..\obj\spi.o: ..\stm32f10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\spi.o: ..\stm32f10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\spi.o: ..\stm32f10x_FWLib\inc\misc.h
+..\obj\spi.o: ..\UserDrive\Drv8301.h
+..\obj\spi.o: ..\UserDrive\GPIO.h

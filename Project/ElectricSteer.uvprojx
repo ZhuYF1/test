@@ -185,6 +185,7 @@
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -325,7 +326,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>1</uGnu>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
             <v6LangP>3</v6LangP>
@@ -351,7 +352,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -492,10 +493,20 @@
               <FileType>1</FileType>
               <FilePath>.\stm32f10x_it.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Code</GroupName>
+          <Files>
             <File>
-              <FileName>Drv8301.c</FileName>
+              <FileName>5182.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\UserDrive\Drv8301.c</FilePath>
+              <FilePath>..\UserDrive\5182.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserDrive\ADC.c</FilePath>
             </File>
             <File>
               <FileName>Delay.c</FileName>
@@ -503,9 +514,14 @@
               <FilePath>..\UserDrive\Delay.c</FilePath>
             </File>
             <File>
-              <FileName>SPI.c</FileName>
+              <FileName>Drv8301.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\UserDrive\SPI.c</FilePath>
+              <FilePath>..\UserDrive\Drv8301.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserDrive\flash.c</FilePath>
             </File>
             <File>
               <FileName>GPIO.c</FileName>
@@ -513,9 +529,24 @@
               <FilePath>..\UserDrive\GPIO.c</FilePath>
             </File>
             <File>
+              <FileName>HALL.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserDrive\HALL.c</FilePath>
+            </File>
+            <File>
               <FileName>IWDG.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\UserDrive\IWDG.c</FilePath>
+            </File>
+            <File>
+              <FileName>MotorControl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserDrive\MotorControl.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserDrive\SPI.c</FilePath>
             </File>
             <File>
               <FileName>Timer.c</FileName>
@@ -528,19 +559,39 @@
               <FilePath>..\UserDrive\UART.c</FilePath>
             </File>
             <File>
-              <FileName>ADC.c</FileName>
+              <FileName>USART.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\UserDrive\ADC.c</FilePath>
+              <FilePath>..\UserDrive\USART.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Add_Code</GroupName>
+          <Files>
+            <File>
+              <FileName>globalvariable.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\globalvariable.h</FilePath>
             </File>
             <File>
-              <FileName>HALL.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\UserDrive\HALL.c</FilePath>
+              <FileName>Protect.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Protect.h</FilePath>
             </File>
             <File>
-              <FileName>MotorControl.c</FileName>
+              <FileName>System.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System.h</FilePath>
+            </File>
+            <File>
+              <FileName>Protect.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\UserDrive\MotorControl.c</FilePath>
+              <FilePath>.\Protect.c</FilePath>
+            </File>
+            <File>
+              <FileName>System.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System.c</FilePath>
             </File>
           </Files>
         </Group>
